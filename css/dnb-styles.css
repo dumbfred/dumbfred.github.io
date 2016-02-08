@@ -1,0 +1,139 @@
+
+html body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #9e0808;
+	font-family: 'Eagle Lake', cursive;
+  /*overflow-x: hidden;*/
+  overflow: hidden;
+	/*overflow: scroll;*/
+}
+.top {
+	display: flex; 
+	justify-content: space-between;
+}
+#title {
+	text-align: left;
+	margin: 0 0 0 4%;
+	width: 90%;	
+}
+h1 {
+	font-size: 2.2em;
+	font-weight: normal;
+}
+h2 {
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
+video {
+	position: fixed;
+	right: 0;
+	bottom: -77px;
+	z-index: -1;
+}
+
+body {
+	background-color: #ffbf00;
+	margin-top: 0;
+}
+header {
+	width: 100%;
+	margin: 1%;
+	background: #ffbf00;
+	text-align: left;
+	z-index: -2;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	width: 26%;
+	margin: 2% 4% 2% 0;
+	border-bottom: 4em solid D5660A;
+}
+
+nav ul {
+	list-style: none;
+	margin: 10px 10px;
+	padding: 10 0 0 0;
+}
+nav li {
+	float: right;
+	clear: right;
+	color: #9e0808;
+	display: inline-block;
+	font-weight: 800;
+	padding: 0 10px 0 ;
+}
+nav a:visited {
+	color: #00f;
+}
+nav a:hover {	
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+.main {
+	font-size: 1.2em;
+	margin: 1% 0 0 5%;
+	width: 90vw;
+}
+
+
+#bar {
+	width: 100%;
+	height: 4em;
+	font-size: 1.4em;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+  background-color: #9e0808;
+  color: #ffbf00;
+  z-index: -3;
+}
+.underline {
+	text-decoration: underline;
+}
+
+
+footer {
+	font-size: 0.7em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear: both;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 1% 0;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 15px;
+  /*box-shadow: 4px 4px #777;*/
+}
+
+.button:hover {
+	/*background-color: #3e8e41;*/
+	border: 4px solid yellow;
+	}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.hide {
+	visibility: hidden;
+}

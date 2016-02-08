@@ -1,0 +1,44 @@
+@media screen and (min-width: 480px) {
+	#gallery li {
+		width: 28.3333%;
+	}
+}
+/*	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+}*/
+
+
+
+@media screen and (min-width: 660px) {
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.25em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}
+	#bar {
+	float: left;
+	width: 100%;
+	height: 2em	;
+  background-color: #9e0808;
+
+}
+/*@media screen and (min-width: 480px) {
+	body {
+		background: blue;
+	}
+}
+@media screen and (min-width: 660px) {
+	body {
+		background: yellow;
+	}
+}*/
